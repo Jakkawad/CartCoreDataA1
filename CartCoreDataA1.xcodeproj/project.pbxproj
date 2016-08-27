@@ -15,6 +15,9 @@
 		3167CE061D71C0A10006BE54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3167CE041D71C0A10006BE54 /* LaunchScreen.storyboard */; };
 		3167CE111D71C0A10006BE54 /* CartCoreDataA1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167CE101D71C0A10006BE54 /* CartCoreDataA1Tests.swift */; };
 		3167CE1C1D71C0A10006BE54 /* CartCoreDataA1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167CE1B1D71C0A10006BE54 /* CartCoreDataA1UITests.swift */; };
+		3167CE2A1D71C1CC0006BE54 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167CE291D71C1CC0006BE54 /* Page1ViewController.swift */; };
+		3167CE2C1D71C1D10006BE54 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167CE2B1D71C1D10006BE54 /* Page2ViewController.swift */; };
+		3167CE301D71C22B0006BE54 /* PageOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167CE2F1D71C22B0006BE54 /* PageOptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3167CE171D71C0A10006BE54 /* CartCoreDataA1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartCoreDataA1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3167CE1B1D71C0A10006BE54 /* CartCoreDataA1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCoreDataA1UITests.swift; sourceTree = "<group>"; };
 		3167CE1D1D71C0A10006BE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3167CE291D71C1CC0006BE54 /* Page1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		3167CE2B1D71C1D10006BE54 /* Page2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		3167CE2F1D71C22B0006BE54 /* PageOptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageOptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 			children = (
 				3167CDF81D71C0A10006BE54 /* AppDelegate.swift */,
 				3167CDFA1D71C0A10006BE54 /* ViewController.swift */,
+				3167CE2D1D71C2190006BE54 /* Page1 */,
+				3167CE2E1D71C21E0006BE54 /* Page2 */,
 				3167CDFC1D71C0A10006BE54 /* Main.storyboard */,
 				3167CE021D71C0A10006BE54 /* Assets.xcassets */,
 				3167CE041D71C0A10006BE54 /* LaunchScreen.storyboard */,
@@ -126,6 +134,31 @@
 				3167CE1D1D71C0A10006BE54 /* Info.plist */,
 			);
 			path = CartCoreDataA1UITests;
+			sourceTree = "<group>";
+		};
+		3167CE2D1D71C2190006BE54 /* Page1 */ = {
+			isa = PBXGroup;
+			children = (
+				3167CE291D71C1CC0006BE54 /* Page1ViewController.swift */,
+				3167CE311D71C3110006BE54 /* PageOption */,
+			);
+			name = Page1;
+			sourceTree = "<group>";
+		};
+		3167CE2E1D71C21E0006BE54 /* Page2 */ = {
+			isa = PBXGroup;
+			children = (
+				3167CE2B1D71C1D10006BE54 /* Page2ViewController.swift */,
+			);
+			name = Page2;
+			sourceTree = "<group>";
+		};
+		3167CE311D71C3110006BE54 /* PageOption */ = {
+			isa = PBXGroup;
+			children = (
+				3167CE2F1D71C22B0006BE54 /* PageOptionViewController.swift */,
+			);
+			name = PageOption;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3167CE2C1D71C1D10006BE54 /* Page2ViewController.swift in Sources */,
 				3167CE011D71C0A10006BE54 /* CartCoreDataA1.xcdatamodeld in Sources */,
+				3167CE2A1D71C1CC0006BE54 /* Page1ViewController.swift in Sources */,
 				3167CDFB1D71C0A10006BE54 /* ViewController.swift in Sources */,
+				3167CE301D71C22B0006BE54 /* PageOptionViewController.swift in Sources */,
 				3167CDF91D71C0A10006BE54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
