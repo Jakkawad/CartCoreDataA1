@@ -18,6 +18,14 @@
 		3167CE2A1D71C1CC0006BE54 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167CE291D71C1CC0006BE54 /* Page1ViewController.swift */; };
 		3167CE2C1D71C1D10006BE54 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167CE2B1D71C1D10006BE54 /* Page2ViewController.swift */; };
 		3167CE301D71C22B0006BE54 /* PageOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167CE2F1D71C22B0006BE54 /* PageOptionViewController.swift */; };
+		3167CE341D71C3BC0006BE54 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167CE321D71C3BC0006BE54 /* Item+CoreDataProperties.swift */; };
+		3167CE351D71C3BC0006BE54 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167CE331D71C3BC0006BE54 /* Item.swift */; };
+		3167CE381D71C7FD0006BE54 /* PageProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167CE371D71C7FD0006BE54 /* PageProductViewController.swift */; };
+		3167CE3A1D71CC480006BE54 /* PageColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167CE391D71CC480006BE54 /* PageColorViewController.swift */; };
+		3167CE3C1D71CC4E0006BE54 /* PageSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167CE3B1D71CC4E0006BE54 /* PageSizeViewController.swift */; };
+		3167CE3E1D71CFDA0006BE54 /* Page2Cell0TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167CE3D1D71CFDA0006BE54 /* Page2Cell0TableViewCell.swift */; };
+		3167CE401D71E5240006BE54 /* GenaralClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167CE3F1D71E5240006BE54 /* GenaralClass.swift */; };
+		3167CE421D72E0370006BE54 /* PageOptionQuiltyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167CE411D72E0370006BE54 /* PageOptionQuiltyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +63,14 @@
 		3167CE291D71C1CC0006BE54 /* Page1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
 		3167CE2B1D71C1D10006BE54 /* Page2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
 		3167CE2F1D71C22B0006BE54 /* PageOptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageOptionViewController.swift; sourceTree = "<group>"; };
+		3167CE321D71C3BC0006BE54 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Item+CoreDataProperties.swift"; path = "../Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3167CE331D71C3BC0006BE54 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = ../Item.swift; sourceTree = "<group>"; };
+		3167CE371D71C7FD0006BE54 /* PageProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageProductViewController.swift; sourceTree = "<group>"; };
+		3167CE391D71CC480006BE54 /* PageColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageColorViewController.swift; sourceTree = "<group>"; };
+		3167CE3B1D71CC4E0006BE54 /* PageSizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageSizeViewController.swift; sourceTree = "<group>"; };
+		3167CE3D1D71CFDA0006BE54 /* Page2Cell0TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page2Cell0TableViewCell.swift; sourceTree = "<group>"; };
+		3167CE3F1D71E5240006BE54 /* GenaralClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenaralClass.swift; sourceTree = "<group>"; };
+		3167CE411D72E0370006BE54 /* PageOptionQuiltyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageOptionQuiltyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +121,13 @@
 		3167CDF71D71C0A10006BE54 /* CartCoreDataA1 */ = {
 			isa = PBXGroup;
 			children = (
+				3167CE361D71C3C80006BE54 /* CoreData */,
 				3167CDF81D71C0A10006BE54 /* AppDelegate.swift */,
 				3167CDFA1D71C0A10006BE54 /* ViewController.swift */,
 				3167CE2D1D71C2190006BE54 /* Page1 */,
 				3167CE2E1D71C21E0006BE54 /* Page2 */,
 				3167CDFC1D71C0A10006BE54 /* Main.storyboard */,
+				3167CE3F1D71E5240006BE54 /* GenaralClass.swift */,
 				3167CE021D71C0A10006BE54 /* Assets.xcassets */,
 				3167CE041D71C0A10006BE54 /* LaunchScreen.storyboard */,
 				3167CE071D71C0A10006BE54 /* Info.plist */,
@@ -149,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				3167CE2B1D71C1D10006BE54 /* Page2ViewController.swift */,
+				3167CE3D1D71CFDA0006BE54 /* Page2Cell0TableViewCell.swift */,
 			);
 			name = Page2;
 			sourceTree = "<group>";
@@ -157,8 +176,21 @@
 			isa = PBXGroup;
 			children = (
 				3167CE2F1D71C22B0006BE54 /* PageOptionViewController.swift */,
+				3167CE371D71C7FD0006BE54 /* PageProductViewController.swift */,
+				3167CE391D71CC480006BE54 /* PageColorViewController.swift */,
+				3167CE3B1D71CC4E0006BE54 /* PageSizeViewController.swift */,
+				3167CE411D72E0370006BE54 /* PageOptionQuiltyTableViewCell.swift */,
 			);
 			name = PageOption;
+			sourceTree = "<group>";
+		};
+		3167CE361D71C3C80006BE54 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3167CE321D71C3BC0006BE54 /* Item+CoreDataProperties.swift */,
+				3167CE331D71C3BC0006BE54 /* Item.swift */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,11 +327,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3167CE341D71C3BC0006BE54 /* Item+CoreDataProperties.swift in Sources */,
 				3167CE2C1D71C1D10006BE54 /* Page2ViewController.swift in Sources */,
+				3167CE3E1D71CFDA0006BE54 /* Page2Cell0TableViewCell.swift in Sources */,
 				3167CE011D71C0A10006BE54 /* CartCoreDataA1.xcdatamodeld in Sources */,
 				3167CE2A1D71C1CC0006BE54 /* Page1ViewController.swift in Sources */,
+				3167CE381D71C7FD0006BE54 /* PageProductViewController.swift in Sources */,
+				3167CE401D71E5240006BE54 /* GenaralClass.swift in Sources */,
+				3167CE351D71C3BC0006BE54 /* Item.swift in Sources */,
 				3167CDFB1D71C0A10006BE54 /* ViewController.swift in Sources */,
+				3167CE3A1D71CC480006BE54 /* PageColorViewController.swift in Sources */,
 				3167CE301D71C22B0006BE54 /* PageOptionViewController.swift in Sources */,
+				3167CE421D72E0370006BE54 /* PageOptionQuiltyTableViewCell.swift in Sources */,
+				3167CE3C1D71CC4E0006BE54 /* PageSizeViewController.swift in Sources */,
 				3167CDF91D71C0A10006BE54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
